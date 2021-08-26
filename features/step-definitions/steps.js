@@ -20,3 +20,8 @@ Then(/^I should see a flash message saying (.*)$/, async (message) => {
     await expect(SecurePage.flashAlert).toHaveTextContaining(message);
 });
 
+
+Then(/^I get the intercepted requests$/, async () => {
+    var request = await browser.getRequests();
+    console.log(request)
+});
