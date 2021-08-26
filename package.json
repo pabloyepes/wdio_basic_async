@@ -1,0 +1,21 @@
+{
+  "name": "wdioasync_v7_25082021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.10.1",
+    "@wdio/cli": "^7.10.1",
+    "@wdio/cucumber-framework": "^7.10.1",
+    "@wdio/junit-reporter": "^7.10.1",
+    "@wdio/local-runner": "^7.10.1",
+    "@wdio/selenium-standalone-service": "^7.10.1",
+    "@wdio/spec-reporter": "^7.10.1"
+  }
+}
